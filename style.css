@@ -1,0 +1,96 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header 스타일 */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin: 0 1rem;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Section 스타일 */
+  section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #about, #products, #guestbook {
+    background-color: #f4f4f4;
+    margin: 1rem 0;
+    border-radius: 8px;
+  }
+  
+  /* 제휴업체 섹션 */
+  #partners {
+    background-color: #ddd;
+    padding: 2rem;
+  }
+  
+  .partner-logos {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+  }
+  
+  .partner-logos button {
+    flex: 0 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .partner-logos button:hover {
+    background-color: #eee;
+  }
+  
+  /* Footer 스타일 */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+  }
+  
+  /* 반응형 스타일 */
+  @media (max-width: 768px) {
+    header nav ul {
+      flex-direction: column;
+    }
+  
+    .partner-logos {
+      gap: 0.5rem;
+    }
+  }
+  
