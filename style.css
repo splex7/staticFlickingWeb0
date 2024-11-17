@@ -76,11 +76,27 @@ section {
     margin: 5px;
 }
 
-.flicking-item.pink { background-color: #FFC0CB; } /* 핑크 */
-.flicking-item.orange { background-color: #FFB347; } /* 오렌지 */
-.flicking-item.yellow { background-color: #FFD700; } /* 노란색 */
-.flicking-item.blue { background-color: #8FC1E3; } /* 하늘색 */
-.flicking-item.green { background-color: #98FB98; } /* 연두 */
+.flicking-item.pink { 
+    background-color: #FF69B4; /* 진한 핑크 */ 
+    color: #FFFFFF; /* 흰색 글씨 */
+} 
+.flicking-item.orange { 
+    background-color: #FF4500; /* 진한 오렌지 */ 
+    color: #FFFFFF; /* 흰색 글씨 */
+} 
+.flicking-item.yellow { 
+    background-color: #FFC107; /* 강한 노란색 */ 
+    color: #FFFFFF; /* 흰색 글씨 */
+} 
+.flicking-item.blue { 
+    background-color: #007BFF; /* 강한 파란색 */ 
+    color: #FFFFFF; /* 흰색 글씨 */
+} 
+.flicking-item.green { 
+    background-color: #32CD32; /* 강한 연두색 */ 
+    color: #FFFFFF; /* 흰색 글씨 */
+}
+
 
 /* Footer 스타일 */
 footer {
@@ -192,4 +208,9 @@ footer {
 
 #guestbookForm button:hover {
     background-color: #0056b3;
+}
+/* 파트너 업체 링크에 밑줄 제거 */
+a {
+    color: inherit;
+    text-decoration: none;
 }
